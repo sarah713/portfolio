@@ -172,12 +172,35 @@ export function Home() {
                   <p className="text-xs font-medium uppercase tracking-[0.22em] text-stone-600">
                     Toolkit
                   </p>
-                  <div className="mt-3 flex flex-wrap gap-2">
-                    {["Java", ".NET", "React", "Python", "SQL", "OpenTelemetry", "REST APIs", "Azure"].map(
-                      (t) => (
+                  <div className="mt-4 max-h-[160px] overflow-y-auto pr-2">
+                    <div className="flex flex-wrap gap-2">
+                      {[
+                        "Product Strategy",
+                        "User Research",
+                        "Data Analysis",
+                        "Prioritization",
+                        "Roadmapping",
+                        "UX/UI Collaboration",
+                        "Experimentation",
+                        "Java",
+                        ".NET",
+                        "Python",
+                        "JavaScript",
+                        "TypeScript",
+                        "React",
+                        "SQL",
+                        "Azure",
+                        "OpenTelemetry",
+                        "Git",
+                        "CI/CD",
+                        "REST APIs",
+                        "System Design",
+                        "Observability",
+                        "Agile",
+                      ].map((t) => (
                         <Badge key={t}>{t}</Badge>
-                      ),
-                    )}
+                      ))}
+                    </div>
                   </div>
                 </Card>
               </div>
