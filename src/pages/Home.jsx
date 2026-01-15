@@ -176,12 +176,14 @@ export function Home() {
                     <div className="flex flex-wrap gap-2">
                       {[
                         "Product Strategy",
+                        "AI Product Strategy",
                         "User Research",
                         "Data Analysis",
                         "Prioritization",
                         "Roadmapping",
                         "UX/UI Collaboration",
                         "Experimentation",
+                        "GenAI Integration",
                         "Java",
                         ".NET",
                         "Python",

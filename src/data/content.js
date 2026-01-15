@@ -1,6 +1,6 @@
 export const profile = {
   name: "Sarah Kulsoom",
-  role: "Product-minded Software Engineer",
+  role: "Product Engineer",
   location: "Sharjah, UAE",
   blurb:
     "Software engineer with 2+ years shipping features for millions of users on market-scale consumer systems. I combine technical execution with product instincts—using data, cross-functional collaboration, and user empathy to build reliable, high-quality products that solve real problems.",
